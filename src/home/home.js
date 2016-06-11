@@ -113,9 +113,8 @@ $scope.mytime = new Date();
          }).success(function(data,status){
             toaster.pop('success', "Submitted", "Thank you for your valuable feedback.");
             $scope.code=status;    
-            $scope.customize={};
-            $('#feedbackForm').modal('hide');
-            
+            $scope.feedback={};
+            $('#feedbackForm').modal('hide');          
         });
 
       };
