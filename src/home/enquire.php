@@ -1,21 +1,28 @@
 <?php
 $_POST = json_decode(file_get_contents('php://input'), true);
+echo $_POST;
 
-if(empty($_POST['group'])  		||
-   empty($_POST['budget']) 		||
-   empty($_POST['email']) 		||
-   empty($_POST['phone'])	||
-   !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
-   {
-	echo "No arguments Provided!";
-	return false;
-   }
+// if(empty($_POST['group'])  		||
+//    empty($_POST['budget']) 		||
+//    empty($_POST['email']) 		||
+//    empty($_POST['phone'])	||
+//    !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
+//    {
+// 	echo "No arguments Provided!";
+// 	return false;
+//    }
 	
-$name = $_POST['email'];
-$email_address = $_POST['email'];
-$phone = $_POST['phone'];
-$group = $_POST['group'];
-$budget = $_POST['budget'];
+// $name = $_POST['email'];
+// $email_address = $_POST['email'];
+// $phone = $_POST['phone'];
+// $group = $_POST['group'];
+// $budget = $_POST['budget'];
+
+ $name = 'abhijeet';
+ $email_address = 'abhijeet24patil@gmail.com';
+ $phone = '9538632958';
+ $group = '4';
+ $budget = '4545545';
 // Create the email and send the message
 $to = 'info@glamaride.in'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 $email_subject = "Glamaride Enquiry Form:  $names";
