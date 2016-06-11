@@ -1,0 +1,101 @@
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+                  <div class="container-fluid">
+                    
+                     <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand page-scroll" href="#page-top">Glamaride</a>
+                     </div>
+                   
+                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+
+                          <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-phone"></i>
+ Request Call back </a>
+                          <!-- <ul class="dropdown-menu">
+                            <li> <i class="fa fa-phone"></i>
++91 8970799174</li>
+                            <li></li>
+                          </ul> -->
+                           <form role="form" class="dropdown-menu" style="padding:10px;" ng-submit="requestCall()">
+  <div class="form-group">
+    <input type="text" class="form-control" ng-model="enq.name" placeholder="Name" >
+  </div>
+  <div class="form-group">
+    <input type="text" class="form-control" ng-model="enq.phone" placeholder="Phone number" maxlength="10" minlength="10"  required>
+  </div>
+
+  <div class="form-group">
+    <label>Preferred Time:</label>
+    <uib-timepicker ng-model="enq.time" ng-change="changed()" hour-step="hstep" minute-step="mstep" show-meridian="ismeridian" required></uib-timepicker>
+  </div>
+  <!-- <uib-timepicker ng-model="mytime" ng-change="changed()" hour-step="hstep" minute-step="mstep" show-meridian="ismeridian" style="color:#000;"></uib-timepicker> -->
+  <button type="submit" class="btn btn-primary btn-sm text-center">Submit</button>
+</form>
+                        </li>
+
+                           <li>
+                              <a class="page-scroll" ui-sref="home.landing">Home</a>
+                           </li>
+                           <li>
+                              <a class="page-scroll" ui-sref="home.destination">Destinations</a>
+                           </li>
+                           <li>
+                              <a class="page-scroll" ui-sref="home.contact">Contact</a>
+                           </li>
+                           <li>
+                              <a class="page-scroll" href="#">Blog</a>
+                           </li>
+                           
+                        </ul>
+                       
+                     </div>
+                     
+                  </div>
+                 
+               </nav>
+<div ui-view> </div>
+
+                              <footer class="footer">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-4">
+                           <div class="col">
+                              <h4>About us</h4>
+                              <p class="no-margin">
+                                 We are into customized tours and trips offering packages at affordable prices with excellent customer  experience.<a ui-sref="home.about">More..</a>
+                              </p>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="col">
+                              <h4>Contact us</h4>
+                              <ul>
+                                 <li>Phone: +91 8970799174,+91 9741872958</li>
+                                 <li>Email: <a href="mailto:info@glamaride.in" title="Email Us">info@glamaride.in</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="col col-social-icons">
+                              <h4>Follow us</h4>
+                              <a target="_blank" href="https://www.facebook.com/glamaride/"><i class="fa fa-facebook"></i></a>
+                              <a target="_blank" href="https://in.linkedin.com/in/glamaride-bangalore-a7756ba4"><i class="fa fa-linkedin"></i></a>
+                              <a target="_blank" href="https://twitter.com/glamaride"><i class="fa fa-twitter"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                     <hr>
+                     <div class="row">
+                        <div class="col-lg-9 copyright">
+                           2015 © Glamaride Pvt. Ltd. All rights reserved.
+                           <a ui-sref="home.about">Privacy Policy</a> | <a ui-sref="home.t&c">Terms of Use</a>
+                        </div>
+                     </div>
+                  </div>
+               </footer>

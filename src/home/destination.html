@@ -1,0 +1,98 @@
+<br>
+<div class="container-fluid img-responsive destination">
+   <div class="row dest-land tagline">
+    <h4>Discover Different world</h4>
+   </div>
+</div>
+<div class="container-fluid">
+  <div class="row place-wraper" style="height:70px;" >
+        <div class="col-md-4 hidden-xs hidden-sm   detail1 ">
+            <div class="box1 text-center">
+               <img src='images/icons/explore.png' class="img-responsive">
+                 <h6>EXPLORE</h6>
+                <div class='card-homepage'>
+                    <img src="images/destinations/explore.jpg" class="img-responsive">
+                    <div class='text-center card-content' >
+                        <h4>EXPLORE</h4>
+                        <h5>
+                          Explore the adventures brimming with delicious experiences with our tailor made holiday packages. Browse from our top holiday tours that go beyond a vacation to give you best travel experience.                          
+                        </h5>
+                    </div>
+                </div>
+            </div>
+           
+
+         </div>
+         <div class="col-md-4 hidden-xs hidden-sm detail2 " >
+            <div class="box1 text-center" style="height:400px;">
+                <img src='images/icons/experience.png' class="img-responsive">
+                <h6>EXPERIENCE</h6>
+                <div class='card-homepage'>
+                    <img src="images/destinations/experience.jpg" class="img-responsive">
+                    <div class='text-center card-content' >
+                        <h4>EXPERIENCE</h4>
+                        <h5>
+                          Experience the distinctive & enjoy the authentic & exclusive holidays designed especially for you. We provide you with the expert local knowledge & full financial protection, so that you can take back the best moments that will change your perspective towards life.
+                        </h5>
+                        <!-- <button class="btn btn-danger "></button> -->
+                    </div>
+                </div>
+            </div>
+          
+
+         </div>
+        <div class="col-md-4 hidden-xs hidden-sm detail3" >
+            <div class="box1 text-center">
+                <img src='images/icons/empower.png' class="img-responsive">
+                <h6>EXPRESS</h6>
+                <div class='card-homepage'>
+                    <img src="images/destinations/express1.jpg" class="img-responsive">
+                   <div class='text-center card-content' >
+                        <h4>EXPRESS</h4>
+                        <h5>
+                        Express your travel by exploring unexplored, sharing the unheard and be a story teller.... </h5>
+
+                    </div>
+                </div>
+            </div>
+           
+         </div>
+
+     </div>
+  </div>
+<div class="container">
+   <div class="row">
+      <div style="width:100%; height:100px;" class="text-center">
+         <h2 style="color:#e74c3c;"><b>Destinations</b></h2>
+         <hr>
+      </div>
+   </div>
+
+   <div class="row">
+      <div class="col-md-4 col-sm-6 destination-wrapper" ng-repeat="destination in destinations">
+        <a ui-sref="{{destination.link}}">
+         <div class="destination-image effect"> 
+           
+            <img src="{{destination.src}}" class="img-responsive">
+             <p>{{destination.text}}</p>
+            <div class="destination-titles">
+             <p>{{destination.text}}</p>
+         </div>
+         </div> </a>
+
+        <!--  <div class="destination-description" >
+            <p>{{destination.description}}</p>
+            <button class="btn btn-info btn-sm">More</button>
+         </div> -->
+      </div>
+   </div>
+</div>
+<hr>
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $(window).scrollTop(0);
+        return false;
+
+    });
+</script>

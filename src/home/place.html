@@ -1,0 +1,306 @@
+<!-- <title>Place</title> -->
+<div class="container-fluid">
+    <div class="row place" style=" background-image:url({{imageBg}});">
+            <div class="col-md-12 text-center tagline">
+              
+               <a data-toggle="modal" data-target="#myModalNorm1" href="" style="margin-top:2%;margin-left:40%;position: fixed;
+z-index: 101;color:#fff; text-decoration: none;" > <!-- <img src="images/icons/enquiry1.png" width="100%"> -->
+
+<div class="sideSticker">
+  <img src="images/icons/quickenquiry.png" width="100%" class="img-responsive">
+  <!-- <h5 style="color:#e7821e;font-family: inherit;
+margin-top: -38%;
+margin-left: 22px;">Enquire</h5> -->
+</div>
+</a>
+<div class="sticky-share">
+    <a target="_blank" href="https://www.facebook.com/glamaride/"><img src="images/icons/facebook.png" width="100%"></a>
+ <a target="_blank" href="https://twitter.com/glamaride"><img src="images/icons/twitter.png" width="100%"></a>
+  <img src="images/icons/google-plus.png" width="100%">
+</div>
+
+      
+                
+            <h4 style="margin-top:200px;">{{place}}</h4>
+             <span>{{tagline}}</span>
+                <a href="#" ng-click="next(place)" type="button" style="color:#fff;"><i class="fa fa-angle-double-left fa-3x pull-left"></i>
+</a> <a href="#" ng-click="next(place)"  style="color:#fff;"><i class="fa fa-angle-double-right fa-3x pull-right"></i>
+</a>
+            </div>          
+    </div>
+
+     <div class="row place-wraper " style="height:200px; background:#fff;" >
+        <div class="col-md-4  col-lg-4   detail1 hidden-xs hidden-sm">
+            <div class="box1">
+               <img src='images/icons/sneakPeek.png' class="img-responsive">
+
+                <h6>SNEAK PEEK</h6>
+                <div class='card'>
+                    <img src="{{image1}}" class="img-responsive">
+                    <div class='card-content text-center' >
+                        <div class="place-card-title">
+                            <h4>{{place}}</h4>
+                        </div>
+                        <hr>
+                        <p>{{descr.description}}</p>
+                        <div class="place-card-footer">
+                            <h5> BEST TIME To VISIT</h5>
+                            {{bestTimeToVisit}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+
+         </div>
+         <div class="col-md-4 col-lg-4 detail2 hidden-xs hidden-sm" >
+            <div class="box1">
+                <img src='images/icons/wts.png' class="img-responsive">
+                <h6>WHAT TO SEE</h6>
+                <div class='card'>
+                    <img src="{{image2}}" class="img-responsive" style="z-index: -1;">
+                    <div class='card-content' style="z-index:5;">
+                        <div class="place-card-title">
+                            <h4>WHAT TO SEE</h4>
+                        </div>
+                         <hr>
+                        <ul class="place-group-list">
+                            <li ng-repeat="item in whatTosee" class="place-item-list"  style="list-style:none;">{{item}}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+          
+
+         </div>
+        <div class="col-md-4  col-lg-4 detail3 hidden-xs hidden-sm" >
+            <div class="box1 ">
+                <img src='images/icons/wtd.png' class="img-responsive">
+                <h6>WHAT TO DO</h6>
+                <div class='card'>
+                    <img src="{{image3}}" class="img-responsive">
+                   <div class='card-content' >
+                        <div class="place-card-title">
+                            <h4>WHAT TO DO</h4>
+                        </div>
+                        <hr>
+                        
+                        <ul class="place-group-list">
+                            <li ng-repeat="item in whatToDo" class="place-item-list" style="list-style:none;">{{item}}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+           
+         </div>
+          <button class="btn btn-warning pull-right hidden-xs" data-toggle="modal" data-target="#myModalNorm">Customize Your Trip</button>
+      <button class="btn btn-danger btn-xs pull-right visible-xs text-center" data-toggle="modal" data-target="#myModalNorm">Customize Your Trip</button>
+
+         <!-- <div class="col-md-3  detail4 hidden-xs hidden-sm" >
+            <div class="box1 ">
+                <img src='images/dest/wts.ico' class="img-responsive">
+                <h6>ENQUIRE</h6>
+                <div class='card'>
+                    <img src="images/dest/goa_10.jpg" class="img-responsive">
+                    <div class='text-center card-content' >
+                        <h4>ENQUIRE</h4>
+                        <!-- <button class="btn btn-danger "></button> -->
+                    <!-- </div>
+                </div>
+            </div>
+           
+         </div> --> 
+
+      
+          <div class="col-xs-12  col-sm-12   hidden-md hidden-lg">
+            <hr>
+            <!-- <div class="box1"> -->
+               <!-- <img src='images/dest/wts.ico' class="img-responsive"> -->
+
+                <!-- <h6>OVERVIEW</h6> -->
+                <div class='card-xs'>
+                    <img src="{{image1}}" class="img-responsive">
+                    <div class='card-content text-center' >
+                        <div class="place-card-title">
+                            <h4>{{place}}</h4>
+                        </div>
+                        <hr>
+                        <p>{{descr.description}}</p>
+                        <div class="place-card-footer">
+                            <h5> BEST TIME To VISIT</h5>
+                            {{bestTimeToVisit}}
+                        </div>
+                    </div>
+                </div>
+            <!-- </div> -->
+           
+            <hr>
+         </div>
+
+         <div class="col-xs-12  col-sm-12  hidden-md hidden-lg">
+            <!-- <div class="box1"> -->
+               <!-- <img src='images/dest/wts.ico' class="img-responsive"> -->
+
+                <!-- <h6>OVERVIEW</h6> -->
+                 <div class='card-xs'>
+                    <img src="{{image2}}" class="img-responsive" style="z-index: -1;">
+                    <div class='card-content' style="z-index:5;">
+                        <div class="place-card-title">
+                            <h4>WHAT TO SEE</h4>
+                        </div>
+                         <hr>
+                        <ul class="place-group-list">
+                            <li ng-repeat="item in whatTosee" class="place-item-list"  style="list-style:none;">{{item}}</li>
+                        </ul>
+                    </div>
+                </div>
+            <!-- </div> -->
+           
+            <hr>
+         </div>
+
+
+         <div class="col-xs-12  col-sm-12    hidden-md hidden-lg">
+            <!-- <div class="box1"> -->
+               <!-- <img src='images/dest/wts.ico' class="img-responsive"> -->
+
+                <!-- <h6>OVERVIEW</h6> -->
+                 <div class='card-xs'>
+                    <img src="{{image3}}" class="img-responsive">
+                   <div class='card-content' >
+                        <div class="place-card-title">
+                            <h4>WHAT TO DO</h4>
+                        </div>
+                        <hr>
+                        
+                        <ul class="place-group-list">
+                            <li ng-repeat="item in whatToDo" class="place-item-list" style="list-style:none;">{{item}}</li>
+                        </ul>
+                    </div>
+                </div>
+            <!-- </div> -->
+           
+            <hr>
+         </div>
+
+     </div>
+     
+
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModalNorm" tabindex="-1" role="dialog" 
+     aria-labelledby="myModalLabel" aria-hidden="true" style="margin-top:30px;">
+    <div class="modal-dialog ">
+        <div class="modal-content customise">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <button type="button" class="close" 
+                   data-dismiss="modal">
+                       <span aria-hidden="true">&times;</span>
+                       <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    Customize Your trip
+                </h4>
+            </div>
+            
+            <!-- Modal Body -->
+            <div class="modal-body">
+                
+                <form role="form" ng-submit="customise()">
+                  <h5>{{message}}<h5>
+                  <div class="form-group">
+                    <!-- <label for="exampleInputPassword1">Budget Per Person</label> -->
+                      <input type="text" class="form-control"
+                          id="exampleInputPassword1" placeholder="Budget Per Person" ng-model="customize.budget"  required/>
+                  </div>
+                  <div class="form-group">
+                   <!--  <label for="exampleInputPassword1">Desired Place</label> -->
+                      <input type="text" class="form-control"
+                          id="exampleInputPassword1" placeholder="Desired Place" ng-model="customize.place" required/>
+                  </div>
+
+                  <div class="form-group">
+                    <!-- <label for="exampleInputPassword1">No of days</label> -->
+                      <input type="text" class="form-control"
+                          id="exampleInputPassword1" placeholder="No of days" ng-model="customize.days" required/>
+                  </div>
+                  <div class="form-group">
+                    <!-- <label for="exampleInputEmail1">Email address</label> -->
+                      <input type="email" class="form-control"
+                      id="exampleInputEmail1" placeholder="Email" ng-model="customize.email" />
+                  </div>
+                  <div class="form-group">
+                    <!-- <label for="exampleInputPassword1">Phone Number</label> -->
+                      <input type="text" class="form-control"
+                          id="exampleInputPassword1" placeholder="Phone Number" maxlength='10' minlength='10' ng-model="customize.phone" required/>
+                  </div>
+            
+                  <!-- <div class="checkbox">
+                    <label>
+                        <input type="checkbox"/> Check me out
+                    </label>
+                  </div> -->
+                  <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+                
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="myModalNorm1" role="dialog" 
+     aria-labelledby="myModalLabel" aria-hidden="true" style="margin-top:30px;">
+    <div class="modal-dialog ">
+        <div class="modal-content customise">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <button type="button" class="close" 
+                   data-dismiss="modal">
+                       <span aria-hidden="true">&times;</span>
+                       <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    Ask us about {{place}} 
+                </h4>
+            </div>
+            
+            <!-- Modal Body -->
+            <div class="modal-body">
+                
+                <form role="form" ng-submit="placeEnquiry()">
+                  <div class="form-group">
+                      <input type="text" class="form-control"
+                   placeholder="Name">
+                  </div>
+                  <div class="form-group">
+                    <!-- <label for="exampleInputEmail1">Email address</label> -->
+                      <input type="email" class="form-control"
+                       placeholder="Email" ng-model="place.email" >
+                  </div>
+                  <div class="form-group">
+                    <!-- <label for="exampleInputPassword1">Phone Number</label> -->
+                      <input type="text" class="form-control"
+                          placeholder="Phone Number"  maxlength="10" minlength="10" ng-model="place.phone" required/>
+                  </div>
+                  <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+                
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $(window).scrollTop(0);
+        return false;
+
+    });
+</script>

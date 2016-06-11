@@ -1,0 +1,333 @@
+{
+"dest": [
+  {
+    "Name" : "Goa",
+    "description" : "Goa is a state in western India with coastlines stretching along the Arabian Sea. Goa is also known for its beaches, ranging from popular stretches at Baga and Palolem to laid-back fishing villages such as Agonda.",
+    "whatToDo":[ "Water Sports","Shop in Anjuna Flea Market","Visit Dudhsagar","Go for Backwater Kayaking","Attend the Party" ,"Visit Casino"
+,"Dolphin Drive","Scuba Diving"],
+    "whatTosee":["Panjim Beach", "Bagha Beach,Anjuna Beach,Galjibag Beach", "Basilica de Bom Jesus", "Fort Agauda", "St. Francis of Assisi", "Chapora Fort", "Shantadurga Temple", "Churach Square"],
+
+    "imageBg":"images/destinations/goa/goa.jpg",
+	"tagline":"The Sand and the Sea",
+    "image1":"images/destinations/goa/goa1.jpg",
+    "image2":"images/destinations/goa/goa2.jpg",
+    "image3":"images/destinations/goa/goa3.jpg",
+    "BestTimeToVisit":"November to March",
+    "id":1
+  },
+ 
+  {
+    "Name" : "Coorg",
+    "description" : "Coorg is a hilly region where the elevation varies between 3,000 feet and 5,740 feet. The highest point is the peak of the Tadiyandamol which is a popular trekking destination.",
+    "whatToDo":[ "Trekking","Water Rafting","Sight Seeing","Stay in Home Stay","Experience the Nature Refreshing Spa"],
+    "whatTosee":["Visit ChikliDam", "Golden Temple- Bylakuppe", "Abbey Falls", "Mountain View at Rajas Seat", "Brahmagiri Trek", "Dubbare Elephant Camp", "Iruppe Falls", "Nagarhole National Park", "Nisargadhama", "Pushpagiri Trekking"],
+
+    "imageBg":"images/destinations/coorg/coorgbg.jpg",
+	"tagline":"Awaken the Senses",
+    "image1":"images/destinations/coorg/coorg1.jpg",
+    "image2":"images/destinations/coorg/coorg2.jpg",
+    "image3":"images/destinations/coorg/coorg2.jpg",
+    "BestTimeToVisit":"October to March",
+    "id":2
+  },
+ {
+    "Name" : "Ooty",
+    "description" : "Udhagamandalam and abbreviated as Udhagai and Ooty,is located 80 km north of Coimbatore and is the capital of the Nilgiris district. Summer temperature is maximum of 25 C and a minimum of 10 C.",
+    "whatToDo":[ "Nilgiri Mountain Railway", "Visit Botanical Garden", "Sightseeing- Visit 6th Mile", "Hiking & Trekking", "Boating in Pykara Lake", "Toda Hamlets", "Shopping & Eating", "Visit to Chocolate Factory" ],
+    "whatTosee":["Doddabetta", "Emerald Lake", "Avalanche Lake", "Ooty Lake", "Main Bazaar", "Mukerti National Park & Lake"],
+
+    "imageBg":"images/destinations/ooty/ootybg.jpg",
+	"tagline":"Beauty of the World is Visible to those who Search for it!!!",
+    "image1":"images/destinations/ooty/ooty1.jpg",
+    "image2":"images/destinations/ooty/ooty2.jpg",
+    "image3":"images/destinations/ooty/ooty3.jpg",
+    "BestTimeToVisit":"April to June, September to November",
+    "id":3
+  }, 
+  {
+    "Name" : "Wayanad",
+    "description" : "Wayanad District is a district in the north-east of Kerala state,  is known for its mist-laden mountains, lush forests and green paddy fields stretching up to the horizon.",
+    "whatToDo":[ "Cycling in Wayanad", "Rainforest Safari", "Wildlife Safari", "Trekking at Thushargiri", "Visit Tea Estates" ],
+    "whatTosee":["Chembra Peak", "Banasura Sagar Dam", "Soochippara Falls", "Edakkal Caves", "Lakkidi View Point", "Tholpetty & Muthunga Wildlife Sanctuary"],
+
+    "imageBg":"images/destinations/wayanad/wayanadbg.jpg",
+	"tagline":"Where the Laws of Nature Apply",
+    "image1":"images/destinations/wayanad/wayanad1.jpg",
+    "image2":"images/destinations/wayanad/wayanad2.jpg",
+    "image3":"images/destinations/wayanad/wayanad3.jpg",
+    "BestTimeToVisit":"October to May",
+    "id":4
+  }, 
+   {
+    "Name" : "Kurumgad Island",
+    "description" : "This Island is a secluded retreat with untouched natural splendour, a remote haven located 4 kms into the Arabian Sea off the coast of Karwar. Discover historic ruins of an ancient fort reflecting the glorious past of this island.",
+    "whatToDo":[ "Visit the Beach", "Take the Island Tour", "Fishing", "Boat rides", "Ayurvedic Massage" ],
+    "whatTosee":["Trimati Island", "Sadashivagad Fort", "Warship Museum(Karwar)"],
+
+    "imageBg":"images/destinations/kurumgad/kurumgadbg.jpg",
+	"tagline":"Making the Big Splash",
+    "image1":"images/destinations/kurumgad/kurumgad1.jpg",
+    "image2":"images/destinations/kurumgad/kurumgad2.jpg",
+    "image3":"images/destinations/kurumgad/kurumgad3.jpg",
+    "BestTimeToVisit":"October to February",
+    "id":5
+  },
+     {
+    "Name" : "Gokarna",
+    "description" : "Gokarna is a small temple town on the western coast of Uttara Kannada district,Karnataka. The main temple and deity is Lord Shiva, who is also known as Mahabhaleshwara. Gokarna is a more laid-back and less-commercialised version of Goa.",
+    "whatToDo":[ "Beach Trekking", "Spa & Massage", "Try Different Food", "Water Sports" ],
+    "whatTosee":["OM Beach", "Kudle Beach", "Mahabaleshwara & Maha Ganapati Temple", "Koti Thirtha"],
+
+    "imageBg":"images/destinations/gokarna/gokarnabg.jpg",
+	"tagline":"Where the Prayers are Answered!!",
+    "image1":"images/destinations/gokarna/gokarna1.jpg",
+    "image2":"images/destinations/gokarna/gokarna2.jpg",
+    "image3":"images/destinations/gokarna/gokarna3.jpg",
+    "BestTimeToVisit":"October to March",
+    "id":6
+  },
+       {
+    "Name" : "Dandeli",
+    "description" : "Dandeli is a town in Uttara Kannada district of Karnataka, India. Dandeli is an ideal vacation destination in north Karnataka for those who love nature. The modern town on the river is surrounded by deciduous forests and a renowned wildlife habitat.",
+    "whatToDo":[ "Dandeli Forest Trekking", "Go River Rafting in Kali River", "Jungle Safari", "Night Camp in Jungle","Visit Tribes in Dandeli" ],
+    "whatTosee":["Syntheri Rocks", "Dandeli Wildlife Sanctuary", "Kavala Caves", "Nagjhari Falls", "Shiroli Peak", "Skies Point"],
+
+    "imageBg":"images/destinations/dandeli/dandelibg.jpg",
+	"tagline":"Adventure Redefined!!",
+    "image1":"images/destinations/dandeli/dandeli1.jpg",
+    "image2":"images/destinations/dandeli/dandeli2.jpg",
+    "image3":"images/destinations/dandeli/dandeli3.jpg",
+    "BestTimeToVisit":"October to March",
+    "id":7
+  },
+  {
+      "Name" : "Yercaud",
+    "description" : "Yercaud located in the Shevaroys range of hills in the Eastern Ghats, Salem District, Tamil Nadu. Eastern Ghats takes you by surprise by its verdant landscapes, breath taking views, plantations galore, gushing waterfalls, hidden temples and lesser known destinations lost inside the mountains.",
+    "whatToDo":[ "Take a ride on 32km loop road", "Trekking" , "Visit to Silk Farm" ],
+    "whatTosee":["Pagoda Point", "Lady's Seat", "Servoroyan Temple", "Kiliyur Waterfalls", "Kottachedu Teak Forest", "Bear's Cave"],
+
+    "imageBg":"images/destinations/yercaud/yercaudbg.jpg",
+	"tagline":"Where the Stars are Piercingly Bright!!",
+    "image1":"images/destinations/yercaud/yercaud1.jpg",
+    "image2":"images/destinations/yercaud/yercaud2.jpg",
+    "image3":"images/destinations/yercaud/yercaud3.jpg",
+    "BestTimeToVisit":"May to October",
+    "id":8
+  },
+  {
+        "Name" : "Hampi",
+    "description" : "Traditionally known as Pampakshetra of Kishkindha, Hampi is situated on the southern bank of the river Tungabhadra. It is a must visit place for those who love history and culture.",
+    "whatToDo":[ "Experience the taxi boat ride", "Stay in Cottages", "Go for a Swim", "Hire a Guide & Learn the History" ],
+    "whatTosee":["Hanuman Temple", "Vijay Vittala Temple", "Virupaksha Temple", "Royal Enclosure", "Queen's Bath", "Krishna Temple", "Hampi Bazaar & Underground Temple", "Anjanadri Parvatha"],
+
+    "imageBg":"images/destinations/hampi/hampibg.jpg",
+	"tagline":"You cannot Escape the History",
+    "image1":"images/destinations/hampi/hampi1.jpg",
+    "image2":"images/destinations/hampi/hampi2.jpg",
+    "image3":"images/destinations/hampi/hampi3.jpg",
+    "BestTimeToVisit":"October & November",
+    "id":9
+  },
+    {
+        "Name" : "Mysore",
+    "description" : "One of South India's most famous tourist destinations, Mysuru is known for its glittering royal heritage and magnificent monuments and buildings. The palace blends Hindu, Islamic, Gothic and Rajput styles, and is dramatically lit at night.",
+    "whatToDo":[ "Attend Dussera Festival", "Sandalwood Oil Factory Tour", "Have  coffee at Malgudi Café", "Shop at Deveraja Market", "Visit Jayachamarajendra Art Gallery", "Visit Railway Museum" ],
+    "whatTosee":["Mysore Palace", "Brindavan Gardens", "KRS Reservoir", "GRS Fantasy Park", "Chamundi Hills", "Mysore Zoo", "Melody World Wax Museum", "Jagamohan Palace & Lalitha Mahal"],
+
+    "imageBg":"images/destinations/mysore/mysorebg.jpg",
+	"tagline":"Toes in the Rich Empire",
+    "image1":"images/destinations/mysore/mysore1.jpg",
+    "image2":"images/destinations/mysore/mysore2.jpg",
+    "image3":"images/destinations/mysore/mysore3.jpg",
+    "BestTimeToVisit":"Mysore is pleasant throughout the year",
+    "id":10
+  },
+      {
+        "Name" : "Malpe",
+    "description" : "A set of four small islands in the Arabian Sea off the coast of Malpe in Udupi, Karnataka, India, a mere 20 minutes journey by boat from Malpe Beach. This island is known by the locals as Saint Mary's Island or Coconut Island, and is a serene island to which daily ferries come to and fro.",
+    "whatToDo":[ "Take Boat Ride", "Indulge in Water Sports" ],
+    "whatTosee":["Malpe Beach", "Delta point", "Paradise Beach"],
+
+    "imageBg":"images/destinations/mary/marybg.jpg",
+	"tagline":"Find all the Secrets of the Oceans",
+    "image1":"images/destinations/mary/mary1.jpg",
+    "image2":"images/destinations/mary/mary2.jpg",
+    "image3":"images/destinations/mary/mary3.jpg",
+    "BestTimeToVisit":"December to March",
+    "id":11
+  },
+        {
+        "Name" : "Munnar",
+    "description" : "Munnar, a hill station and former resort for the British Raj elite, is set within rolling hills dotted with tea plantations established in the 19th centuryrout. Anglers may dip their fishing rods in the shimmering waters of Sita Devi Lake and enjoy abarbeque.",
+    "whatToDo":[ "Mesmerise Tea Gardens", "Kannan Devan Tea Museum", "Click Profile pictures at Photo Point", "Trek to Top Station(Kanan Devan Hills)", "Authentic Food at Mahaveer Bhojanalaya", "Ritual Kathakali Makeup Session at Punarjani Village", "Boat Cruise", " Ride on Majestic Elephant" ],
+    "whatTosee":["Attukal Waterfalls", "Rajmala", "Ervikulam National Park", "Mattupetty Dam and Mattupetty Indo-Swiss Farm", "Lakkam Waterfalls", "Pallivasal Falls"],
+
+    "imageBg":"images/destinations/munnar/munnarbg.jpg",
+	"tagline":"Your Cup of Inspiration",
+    "image1":"images/destinations/munnar/munnar1.jpg",
+    "image2":"images/destinations/munnar/munnar2.jpg",
+    "image3":"images/destinations/munnar/munnar3.jpg",
+    "BestTimeToVisit":"December to March",
+    "id":12
+  },
+  
+       {
+        "Name" : "Coonoor",
+    "description" : "Coonoor is the second largest hill station in the Nilgiris, surrounded by tea plantations, Situated at an altitude of 200 ft above the seal level. Coonoor is a tourist destination famous for its tea production and adventure sports.",
+    "whatToDo":[ "Explore the Nilgiri Tea Factory", "Shop Fair-trade Local Tribal Crafts, Clothes and Fabrics, Plus Organic Treat", "Explore Tulsi Mall for Range of Western Products", "Take a Ride on Heritage Train", "Trek in the Hidden Valley" ],
+    "whatTosee":["Dolphin's Nose", "Lamb's Rock", "Sim's Park", "Catherine Falls","Laws Falls","Doorg Fort"],
+
+    "imageBg":"images/destinations/coonoor/coonoorbg.jpg",
+	"tagline":"Eternity Begins!!!",
+    "image1":"images/destinations/coonoor/coonoor1.jpg",
+    "image2":"images/destinations/coonoor/coonoor2.jpg",
+    "image3":"images/destinations/coonoor/coonoor3.jpg",
+    "BestTimeToVisit":"December to March",
+    "id":13
+  },
+        {
+        "Name" : "Chikmagalur",
+    "description" : "Chikmagaluru is a district in the state of Karnataka. Coffee was first cultivated in India in Chikmagalur. It means Young Daughter's Town. The perfect activity centric scenic getaway is speckled with heritage spots and adventure options with wildlife and nature themes.",
+    "whatToDo":[ "Explore Coffee Culture", "Mountain Circuit: Sheethalgiri-BabaBudyangiri- Mullayangiri", "Rafting in Bhadra River", "Kudremukh trek", "Jungle Stay Experience", "Learn about the Architecture- Belur-Halibidu ( Approx. 30kms)" ],
+    "whatTosee":["Kalathgirii Falls", "Hebbe falls", "Kadambi Falls", "Bhadra Wild life Sanctuary", "Manikyadhara Falls", "Kemmangundi & Baba Budyangiri Trek", "Sharadamba Temple"],
+
+    "imageBg":"images/destinations/chikmagalur/chikmagalurbg.jpg",
+	"tagline":"Study Nature, Not Books",
+    "image1":"images/destinations/chikmagalur/chikmagalur1.jpg",
+    "image2":"images/destinations/chikmagalur/chikmagalur2.jpg",
+    "image3":"images/destinations/chikmagalur/chikmagalur3.jpg",
+    "BestTimeToVisit":"September to March",
+    "id":14
+  },
+        {
+        "Name" : "Mullayangiri",
+    "description" : "Mullayangiri is the highest peak in Karnataka in the Chandra Dhrona Hill Ranges of the Western Ghats. This hill offers unprecedented views of all its neighbouring ranges. With every step you take, the view gets more and more breath-taking.",
+    "whatToDo":[ "Trekking", "Dirt Mania Outdoor Adventures", "River Rafting in Bhadra River", "Experience Jungle Stay" ],
+    "whatTosee":["Hebbe Falls", "Baba Budangiri Hills", "Shiroli Peak", "Malayala Brahma Temple", "Datta Peetha"],
+
+    "imageBg":"images/destinations/mullayangiri/mullayangiribg.jpg",
+	"tagline":"Where the Nature's Heart Beats!!!",
+    "image1":"images/destinations/mullayangiri/mullayanagiri1.jpg",
+    "image2":"images/destinations/mullayangiri/mullayangiri2.jpg",
+    "image3":"images/destinations/mullayangiri/mullayangiri3.jpg",
+    "BestTimeToVisit":"September to March ",
+    "id":15
+  }
+,
+  {
+        "Name" : "Araku Valley",
+    "description" : "A little hill station nestled in the Ananthagiri district just a few hours from the bustling city of Visakhapatnam, Araku Valley is an idyllic resort with panoramic views of coffee plantations and forested hillsides. ",
+    "whatToDo":[ "Experience Authentic food at Vasundhara Restaurant", "Dhimsa Dance, an age-old Folk Dance during 'Itika Pongal'","Go on Shopping Spree"],
+    "whatTosee":["Borra Caves","Araku Coffee House", "Katiki Waterfalls","Tribal Museum","Chaparai Waterfalls", "Ananthagiri waterfalls", "Bheemunipatnam Beach"],
+
+    "imageBg":"images/destinations/araku/arakubg.JPG",
+ "tagline":"The Lost Valley of Imagination!!!",
+    "image1":"images/destinations/araku/araku1.jpg",
+    "image2":"images/destinations/araku/araku2.jpg",
+    "image3":"images/destinations/araku/araku3.jpg",
+    "BestTimeToVisit":"August to December",
+    "id":16
+  },
+{
+        "Name" : "Thekkekadu",
+    "description" : "Thekkekadu is the hidden secret of Kerala which is less explored. Tthe raw, beautiful, virgin backwaters lined only with fisherman, this place should be on your top list. ",
+    "whatToDo":[ "Relaxing in Mr. Gul's Private Island","Stay in the Floating Resort (Oyster Opera)","Have Refreshing Body Spa","Accompany the Fishermen"],
+    "whatTosee":["Kerala Backwaters","Bekal Fort","Chandragiri Fort","Ananthapura Lake","Thekkekadu Beach"],
+
+    "imageBg":"images/destinations/Thekkekadu/thekkekadubg.jpg",
+ "tagline":"You are in the Real World!!!",
+    "image1":"images/destinations/Thekkekadu/thekkekadu1.jpg",
+    "image2":"images/destinations/Thekkekadu/thekkekadu2.jpg",
+    "image3":"images/destinations/Thekkekadu/thekkekadu3.jpg",
+    "BestTimeToVisit":"Throughout the Year",
+    "id":17
+  },
+  {
+        "Name" : "Gandikota",
+    "description" : "Gandikota is a charming village located on the right bank of the river Pennar in Andhra Pradesh. It is famous for its quaintness and is mainly visited during the winter months. ",
+    "whatToDo":[ "Take a Bike Ride from Bangalore to Gandikota","Tour the Amazing Fort & River","Trek Down the Gorge & Explore the Area","Rock Climbing & Trekking"],
+    "whatTosee":["Gandokota Fort","Belum Caves(61km)","Gandikota Gorge & Fort View Point","Ranganatha Swamy Temple","Madhavaraya Temple"],
+
+    "imageBg":"images/destinations/Gandikota/Gandikotabg.jpg",
+ "tagline":"The Value of Experience!",
+    "image1":"images/destinations/Gandikota/gandikota1.jpg",
+    "image2":"images/destinations/Gandikota/gandikota2.jpg",
+    "image3":"images/destinations/Gandikota/gandikota3.jpg",
+    "BestTimeToVisit":"August to November",
+    "id":18
+  },
+  {
+        "Name" : "Athirapally",
+    "description" : "Affording to the onlookers, one of the most bewitching sights, Athirapally water Falls is 80 feet high and located exactly in the forest area. ",
+    "whatToDo":[ "Take a tour to Hindustan Spices & Herbals","Go Adventurous at Chimmony Wildlife Sanctuary (44Km)"],
+    "whatTosee":["Charpa Falls","Vazhachal Falls","Chalakudy River","Peringalkuthu Dam","Idamalayar Dam","Silver Storm Water Theme Park"],
+
+    "imageBg":"images/destinations/Athirapally/Athirapallybg.jpg",
+ "tagline":"Untouched. Unmatched. Unforgettable",
+    "image1":"images/destinations/Athirapally/Athirapally1.jpg",
+    "image2":"images/destinations/Athirapally/Athirapally2.jpg",
+    "image3":"images/destinations/Athirapally/Athirapally3.jpg",
+    "BestTimeToVisit":"June to September",
+    "id":19
+  },
+    {
+        "Name" : "Maravanthe Beach",
+    "description" : "Maravanthe beach is known as Paradise for Peace, often referred to as the Virgin Beach for its miles and miles of unspoilt white sand.",
+    "whatToDo":[ "Mesmerize the beautiful Sunset at Baindur","Trek to Kodachaddri Hills","Witness Sunset at Ottinane","Indulge in Watersports"],
+    "whatTosee":["Kodachaddri Hills","Mookambika Temple","Kanchugodu","Kodi Beach","Belaka Theertha Falls","Baindur Beach","St. Mary's Island"],
+
+    "imageBg":"images/destinations/Maravanthe/maravanthe-beachbg.jpg",
+ "tagline":"The Paradise of Peace",
+    "image1":"images/destinations/Maravanthe/maravanthe-beach1.jpg",
+    "image2":"images/destinations/Maravanthe/maravanthe-beach2.jpg",
+    "image3":"images/destinations/Maravanthe/maravanthe-beach3.jpg",
+    "BestTimeToVisit":"September to March",
+    "id":20
+  },
+  {
+        "Name" : "Dhanushkodi",
+    "description" : "Dhanushkodi is a small island near Rameshwaram. Commonly known as Ghost town Walk in to the clear waters that surround this tiny land and get wowed by the myriad hues of the sea life here.",
+    "whatToDo":[ "Pure yourself- Take dip at Agni Theertham","Ride on Annai Indira Gandhi Road","Indulge in Watersports","Visit Church & Station Ruins"],
+    "whatTosee":["Dhanushkodi Beach","Pamban Island","Adam's Bridge","Rameswaram","Gandhamdhana Parvatham","Gulf of Mannar Marine National Park"],
+
+    "imageBg":"images/destinations/Dhanushkodi/dhanushkodibg.jpg",
+ "tagline":"The Lost Land",
+    "image1":"images/destinations/Dhanushkodi/dhanushkodi1.jpg",
+    "image2":"images/destinations/Dhanushkodi/dhanushkodi2.jpg",
+    "image3":"images/destinations/Dhanushkodi/dhanushkodi3.jpg",
+    "BestTimeToVisit":"November to February",
+    "id":21
+  },
+  {
+        "Name" : "Papikondalu",
+    "description" : "Papikondalu is a mixture of two different names such as Papidi Kondalu that is a hill range of this area. The huge river Godavari gets split because of this hill.",
+    "whatToDo":[ "Explore Teak","Arjun and Rose Wood forest","Boating in Godavari River","Visit Natural Vegetation Farms","Explore Real wildlife in Dense Forest"],
+    "whatTosee":["Papi Kondalu Hills","Gandi Pochamma Temple","Perantapalli Village","Papikonda Wildlife Sanctuary","Pattisam Island","Kinnerasni Wildlife Sanctuary","Bhadrachalam Temple"],
+
+    "imageBg":"images/destinations/Papikondalu/Papibg.jpg",
+ "tagline":"Nature's Own Cruise",
+    "image1":"images/destinations/Papikondalu/Papi1.jpg",
+    "image2":"images/destinations/Papikondalu/Papi2.jpg",
+    "image3":"images/destinations/Papikondalu/Papi3.jpg",
+    "BestTimeToVisit":"October to December",
+    "id":22
+  },
+  {
+        "Name" : "Alleppey",
+    "description" : "Alleppey is graceful and greenery-fringed, disappearing into a watery world of villages, punted canoes, toddy shops and, of course, houseboats. Alleppey is populalry known as Venice of East",
+    "whatToDo":[ "Pamper  Yourself with Ayurvedic Therapies","Royal ride on Houseboats","Go adventurous with Snake Boat Racing","Attend Ambalapuza Temple Festival","Shop at Chambakulam Local Market","Kayaking & Canoeing"],
+    "whatTosee":["Alappuzha Beach","Marari Beach","Ambalapuzha Sree Krishna Temple","Kuttanad","Chambakulam Church","Andhakaranazhi Beach"],
+
+    "imageBg":"images/destinations/Alleppey/Alleppeybg.jpg",
+ "tagline":"Your dreams...From sea to shore",
+    "image1":"images/destinations/Alleppey/Alleppey1.jpg",
+    "image2":"images/destinations/Alleppey/Alleppey2.jpg",
+    "image3":"images/destinations/Alleppey/Alleppey3.jpg",
+    "BestTimeToVisit":"November to February",
+    "id":23
+  }
+]
+}
+
+
+

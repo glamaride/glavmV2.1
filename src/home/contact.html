@@ -1,0 +1,130 @@
+<br> <br> 
+<div class="container-fluid">
+   <div class="row">
+
+      <div class="col-md-12 col-xs-12 col-sm-12 contact-style">
+
+         <div class="row tagline">
+           <toaster-container toaster-options="{'time-out': 5000}"></toaster-container>
+         <h4 style="margin-top:80px;font-size:64px">Connect with Us</h4>
+            <div class="contact-wrapper">
+            <div class="col-md-3 col-sm-3 col-xs-6 contact-fb" >
+              <a target="_blank" href="https://www.facebook.com/glamaride/">
+               <i class="fa fa-facebook fa-5x text-center" ></i>
+             </a>
+            </div>
+
+            <div class="col-md-3 col-sm-3 col-xs-6 contact-tw">
+              <a target="_blank" href="https://twitter.com/glamaride">
+               <i class="fa fa-twitter fa-5x text-center" ></i>
+             </a>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6 contact-ig" >
+               <i class="fa fa-instagram fa-5x text-center"></i>
+            </div>
+
+            <div class="col-md-3 col-sm-3 col-xs-6 contact-ig" >
+              <a  href="#" data-toggle="modal" data-target="#myModalNorm">
+              <i class="fa fa-envelope fa-5x text-center"></i>
+              </a>
+            </div>
+
+
+         </div>
+
+
+            <!-- Button trigger modal -->
+
+         </div>
+      </div>
+     <!--  <div class="col-md-12  contact-style">
+          <div class="component" style="top:200px;">
+              <a href="#" class="icon icon-mono facebook">facebook</a>
+              <a href="#" class="icon icon-mono twitter">twitter</a>
+              <a href="#" class="icon icon-mono googleplus">google+</a>
+              <a href="#" class="icon icon-mono github">github</a>
+              <a href="#" class="icon icon-mono rss">rss</a>
+          </div>
+      </div> -->
+   </div>
+
+
+
+  
+
+
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModalNorm" tabindex="-1" role="dialog" 
+     aria-labelledby="myModalLabel" aria-hidden="true" style="margin-top:30px;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <button type="button" class="close" 
+                   data-dismiss="modal">
+                       <span aria-hidden="true">&times;</span>
+                       <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    We are Waiting to Hear from you
+                </h4>
+            </div>
+            
+            <!-- Modal Body -->
+            <div class="modal-body">
+                
+                <form role="form"  class="contactForm"  id="contact-form">
+                  <h4>{{contMessage}}</h4>
+                  <div class="form-group">
+                      <input type="text" class="form-control" ng-model="contact.names"
+                          placeholder="Name" name="entry.2005620554"/>
+                  </div>
+                  <div class="form-group">
+                      <input type="email" class="form-control" ng-model="contact.email"
+                       placeholder="Enter email" name="entry.1045781291"/>
+                  </div>
+                  <div class="form-group">
+                      <input type="text" class="form-control" maxlength="10" minlength="10" ng-model="contact.phone"
+                           placeholder="Phone Number" name="entry.1166974658"/>
+                  </div>
+                  <div class="form-group">
+                      <textarea class="form-control" rows="5" id="comment" ng-model="contact.message" placeholder="Your Query" name="entry.839337160"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                
+                
+            </div>
+            
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<script>
+              $('#contact-form').submit(function(e) {
+               e.preventDefault();
+               $.ajax({
+                   url: "https://docs.google.com/forms/d/1veykEB0N6YLR6sQPFMzdKHabmbTsqz-le5qAehj0Kv8/formResponse",
+                   data: $(this).serialize(),
+                   type: "POST",
+                   dataType: "xml",
+                   success: function(data) {
+                        // $("#ss-form").hide('slow');
+                        // $("#response-card").show('slow');
+                   },
+                   error: function(xhr, status, error) {
+                       // $("#ss-form").hide('slow');
+                       // $("#response-card").show('slow');
+                   }
+               });
+           });
+      </script>
+

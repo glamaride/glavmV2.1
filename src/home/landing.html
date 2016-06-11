@@ -1,0 +1,565 @@
+<div class="container img-responsive home">
+      
+
+   <div class="row" style="margin-top:80px;">
+
+      <div class="col-md-12 tagline" >
+         <h4>Travel is a new fashion</h4>
+
+         <div class="form-enquiry hidden-xs">
+            <div class="row hidden-xs">
+                <!-- <div class="col-md-1 hidden-sm" style="color:#fff;">
+               
+               </div> -->
+               <toaster-container toaster-options="{'time-out': 3000}"></toaster-container>
+               <form style="margin-left:7%;" ng-submit="enquires()">
+               <div class="col-md-2 col-sm-2">
+                  <!-- <div class="dropdown" style="padding-top: 13px;">
+                     <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" style=" width:100%;">Group Size
+                     <span class="caret"></span></button>
+                     <ul class="dropdown-menu">
+                        <li><a href="#"><10</a></li>
+                        <li><a href="#">>10</a></li>
+                        <li><a href="#"><20</a></li>
+                     </ul>
+                  </div> --> 
+                  <select style="margin-top:12px;  width:100%;height:37px;" ng-model="enquire.groupsize" required> 
+                    <option value="">Group size</option>
+                    <option value="<10"><10</option>
+                    <option value=">10">>10</option>
+                    <option value="<20"><20</option>
+                  </select>
+               </div>
+               <div class="col-md-2 col-sm-2">
+                 <!--  <div class="dropdown" style="padding-top: 13px;">
+                     <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" style=" width:100%;">My Budget
+                     <span class="caret abc"></span></button>
+                     <ul class="dropdown-menu">
+                        <li><a href="#">2000</a></li>
+                        <li><a href="#">2000-5000</a></li>
+                        <li><a href="#">5000-10000</a></li>
+                     </ul>
+                  </div> -->
+
+                  <select style="margin-top:12px;  width:100%;height:37px;" ng-model="enquire.budget" required>
+                    <option value="">My Budget</option>
+                    <option value="2000"><i class="fa fa-inr"></i>
+ 2000</option>
+                    <option value="2000-5000"><i class="fa fa-inr"></i>
+ 2000-5000</option>
+                    <option value="5000-10000"><i class="fa fa-inr"></i>
+ 5000-10000</option>
+                  </select>
+               </div>
+                <div class="col-md-3 col-sm-3" style="padding-top: 13px;">
+                  <input type="email" placeholder="Email"style="height: 36px; width:100%;" ng-model="enquire.email" required>
+               </div>
+               <div class="col-md-2 col-sm-2" style="padding-top: 13px;">
+                  <input type="text" placeholder="Phone Number" maxlength="10" minlength="10" style="height: 36px; width:100%;" ng-model="enquire.phone" required>
+               </div>
+
+               <div class="col-md-2 col-sm-2" style="padding-top: 13px;">
+                  <button class="btn" type="submit" style=" width:95%;">Enquire
+                  </button>
+               </div>
+            </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+
+<div class="container-fluid">
+   <div class="row place-wraper" style="height:70px;" >
+      <div class="col-md-4 hidden-xs hidden-sm   detail1 ">
+         <div class="box1 text-center">
+            <img src='images/destinations/about.png' class="img-responsive">
+            <h6>ABOUT US</h6>
+            <div class='card-homepage'>
+               <img src="http://www.wantedworldwide.net/wp-content/uploads/2014/11/about-agarwal-enterprises.jpg" class="img-responsive">
+               <div class='text-center card-content' >
+                  <h5>We at Glamaride aim at providing the best experiential holidays. Travel is our passion and our life work.We offer you special offers and amenities you won’t find anywhere else. Our service ensures you that you enjoy the distinctive holiday experience which you will mesmerize these moments throughout your lifetime. Our goal is to exceed your expectations every time with outstanding service. <a ui-sref="home.about">More..</a></h5>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-md-4 hidden-xs hidden-sm detail2 " >
+         <div class="box1 text-center">
+            <img src='images/destinations/wts.ico' class="img-responsive">
+            <!-- <h6>WHAT TO SEE</h6> -->
+            <h6>DESTINATIONS</h6>
+            <div class='card-homepage'>
+               <img src="images/destinations/Collages1.jpg" class="img-responsive">
+               <div class='text-center card-content' >
+                  <h4>Destinations</h4>
+                  <h5>
+                  Explore the amazing destinations with us,which fill your life with delicious experiences. We have only one mission- To Make your Holidays Filled with Joy and Beautiful Moments. And we bet, you will love it too!!. So what you’re waiting for?.
+                  Start exploring our fascinating places… <a ui-sref="home.destination">Explore More..</a></h5>
+                  <!-- <button class="btn btn-danger "></button> -->
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-md-4 hidden-xs hidden-sm detail3" >
+         <div class="box1 text-center">
+            <img src='images/destinations/wts.png' class="img-responsive">
+            <h6>PERSONALIZED HOLIDAYS</h6>
+            <div class='card-homepage'>
+               <img src="http://sinosz.hu/wp/wp-content/uploads/2015/05/Falcons-Nest1.jpg" class="img-responsive">
+               <div class='text-center card-content' >
+                  <h4>Personalized Holidays</h4>
+                  <h5>
+“Let your soul and spirit fly”
+Personalize your holidays that fit your budget and choose from the best travel packages. For all ages,all types of tour styles of travel and for any size of group. We love putting our personal, first hand knowledge of the destinations to the test, providing you with an independent travel experience without the hassle.
+<button class="btn btn-warning btn-xs" data-toggle="modal" data-target="#myModalNorm">Start Now</button></h5>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <button class="btn btn-warning pull-right hidden-xs" data-toggle="modal" data-target="#myModalNorm">Customize Your Trip</button>
+      <button class="btn btn-danger btn-xs pull-right visible-xs text-center" data-toggle="modal" data-target="#myModalNorm">Customize Your Trip</button>
+   </div>
+
+
+</div>
+<!-- <div class="list-group" style="z-index:2;">
+        <span href="#" class="list-group-item active">
+            Custmize your Trip
+            <span class="pull-right" id="slide-submenu">
+                <i class="fa fa-times"></i>
+            </span>
+        </span>
+    </div> -->
+
+<div class="container ">
+   <div class="row new">
+      <div style="width:100%; height:100px;" class="text-center">
+         <h2 style="color:#e74c3c;;margin-top:5%;"><b>What's Hot</b></h2>
+         <hr>
+      </div>
+   </div>
+   <div class="row text-center">
+      <div class="col-md-4 col-sm-4 col-sm-4 destination-wrapper">
+         <a ui-sref="home.place({place:'Goa'})">
+            <div class="destination-image">
+               <img src="images/destinations/goa/goa1.jpg" class="img-responsive" >
+               <!--  <div class="destination-title">
+                  <h4><b>PLAN YOUR TRIP</b></h4>
+                  </div> -->
+            </div>
+            <div class="destination-description dest-color1">
+               <span><b>GOA</b></span>
+               <p>The Sand and the Sea</p>
+            </div>
+         </a>
+      </div>
+      <div class="col-md-4 col-sm-4 col-sm-4 destination-wrapper">
+         <a ui-sref="home.place({place:'Yercaud'})">
+            <div class="destination-image">
+               <img src="images/destinations/yercaud/yercaud.jpg" class="img-responsive">
+               <!--  <div class="destination-title">
+                  <h4><b>PLAN YOUR TRIP</b></h4>
+                  </div> -->
+            </div>
+            <div class="destination-description dest-color2">
+               <span><b>YERCAUD</b></span>
+               <p>Where the Stars are Piercingly Bright</p>
+            </div>
+         </a>
+      </div>
+      <div class="col-md-4 col-sm-4 col-sm-4 destination-wrapper">
+         <a ui-sref="home.place({place:'Coorg'})">
+            <div class="destination-image">
+               <img src="images/destinations/coorg/coorg.jpg" class="img-responsive">
+               <!--  <div class="destination-title">
+                  <h4><b>PLAN YOUR TRIP</b></h4>
+                  </div> -->
+            </div>
+            <div class="destination-description dest-color3">
+               <span><b>COORG</b></span>
+               <p>Awaken the Senses</p>
+            </div>
+      </div>
+      </a>
+   </div>
+   <hr>
+   <div class="row text-center">
+      <div class="col-md-4 col-sm-4 col-sm-4 destination-wrapper">
+         <a ui-sref="home.place({place:'Hampi'})">
+            <div class="destination-image">
+               <img src="images/destinations/hampi/hampi.jpg" class="img-responsive">
+               <!-- <div class="destination-title">
+                  <h4><b>PLAN YOUR TRIP</b></h4>
+                  </div> -->
+            </div>
+            <div class="destination-description dest-color4">
+               <span><b>HAMPI</b></span>
+               <p>You cannot Escape the History</p>
+            </div>
+         </a>
+      </div>
+      <div class="col-md-4 col-sm-4 col-sm-4 destination-wrapper">
+         <a ui-sref="home.place({place:'Wayanad'})">
+            <div class="destination-image">
+               <img src="images/destinations/wayanad/wayanad.jpg" class="img-responsive">
+               <!-- <div class="destination-title">
+                  <h4><b>PLAN YOUR TRIP</b></h4>
+                  </div> -->
+            </div>
+            <div class="destination-description dest-color5">
+               <span><b>WAYANAD</b></span>
+               <p>Where the Laws of Nature Apply</p>
+            </div>
+         </a>
+      </div>
+      <div class="col-md-4 col-sm-4 col-sm-4 destination-wrapper">
+         <a ui-sref="home.place({place:'Mysore'})">
+            <div class="destination-image">
+               <img src="images/destinations/mysore/mysore.jpg" class="img-responsive">
+               <!--  <div class="destination-title">
+                  <h4><b>PLAN YOUR TRIP</b></h4>
+                  </div> -->
+            </div>
+            <div class="destination-description dest-color6">
+               <span><b>MYSORE</b></span>
+               <p>Toes in the Rich Empire</p>
+            </div>
+         </a>
+      </div>
+   </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <a class="btn btn-danger btn-lg" ui-sref="destination">Explore More </a>
+      </div>
+   </div>
+   <hr>
+   <div class="row">
+      <div style="width:100%; height:100px;" class="text-center">
+         <h2 style="color:#e74c3c;;margin-top:5%;"><b>UNEXPLORED HERITAGES</b></h2>
+         <hr>
+      </div>
+   </div>
+   <div class="row text-center">
+      <div class="col-md-4 col-sm-4 col-sm-4 destination-wrapper">
+         <a ui-sref="home.place({place:'Papikondalu'})">
+            <div class="destination-image">
+               <img src="images/destinations/Papikondalu/Papi.JPG" class="img-responsive" >
+               <!--  <div class="destination-title">
+                  <h4><b>PLAN YOUR TRIP</b></h4>
+                  </div> -->
+            </div>
+            <div class="destination-description dest-color1">
+               <span><b>PAPIKONDALU</b></span>
+               <p>Nature's Own Cruise</p>
+            </div>
+         </a>
+      </div>
+      <div class="col-md-4 col-sm-4 col-sm-4 destination-wrapper">
+         <a ui-sref="home.place({place:'Araku Valley'})">
+            <div class="destination-image">
+               <img src="images/destinations/araku/araku.jpg" class="img-responsive">
+               <!--  <div class="destination-title">
+                  <h4><b>PLAN YOUR TRIP</b></h4>
+                  </div> -->
+            </div>
+            <div class="destination-description dest-color2">
+               <span><b>ARAKU VALLEY</b></span>
+               <p>The Lost Valley of Imagination</p>
+            </div>
+         </a>
+      </div>
+      <div class="col-md-4 col-sm-4 col-sm-4 destination-wrapper">
+         <a ui-sref="home.place({place:'Gandikota'})">
+            <div class="destination-image">
+               <img src="images/destinations/Gandikota/Gandikota.jpg" class="img-responsive">
+               <!--  <div class="destination-title">
+                  <h4><b>PLAN YOUR TRIP</b></h4>
+                  </div> -->
+            </div>
+            <div class="destination-description dest-color3">
+               <span><b>GANDIKOTA</b></span>
+               <p>The Value of Experience</p>
+            </div>
+      </div>
+      </a>
+   </div>
+   <hr>
+   <div class="row text-center">
+      <div class="col-md-4 col-sm-4 col-sm-4 destination-wrapper">
+         <a ui-sref="home.place({place:'Athirapally'})">
+            <div class="destination-image">
+               <img src="images/destinations/Athirapally/Athirapally.jpg" class="img-responsive">
+               <!-- <div class="destination-title">
+                  <h4><b>PLAN YOUR TRIP</b></h4>
+                  </div> -->
+            </div>
+            <div class="destination-description dest-color4">
+               <span><b>ATHIRAPALLY FALLS</b></span>
+               <p>Untouched. Unmatched. Unforgettable.</p>
+            </div>
+         </a>
+      </div>
+      <div class="col-md-4 col-sm-4 col-sm-4 destination-wrapper">
+         <a ui-sref="home.place({place:'Dhanushkodi'})">
+            <div class="destination-image">
+               <img src="images/destinations/Dhanushkodi/dhanushkodi.jpg" class="img-responsive">
+               <!-- <div class="destination-title">
+                  <h4><b>PLAN YOUR TRIP</b></h4>
+                  </div> -->
+            </div>
+            <div class="destination-description dest-color5">
+               <span><b>DHANUSHKODI</b></span>
+               <p>The Lost Land</p>
+            </div>
+         </a>
+      </div>
+      <div class="col-md-4 col-sm-4 col-sm-4 destination-wrapper">
+         <a ui-sref="home.place({place:'Thekkekadu'})">
+            <div class="destination-image">
+               <img src="images/destinations/Thekkekadu/thekkekadu.jpg" class="img-responsive">
+               <!--  <div class="destination-title">
+                  <h4><b>PLAN YOUR TRIP</b></h4>
+                  </div> -->
+            </div>
+            <div class="destination-description dest-color6">
+               <span><b>THEKKEKADU</b></span>
+               <p>You are in the Real World</p>
+            </div>
+         </a>
+      </div>
+   </div>
+   <div class="row">
+      <div class="col-md-12 photography" >
+         <img src="images/destinations/photography.jpg" width="100%" >
+         <h2> Unleash Your Photography Skills..</h2>
+         <p>Send us photographs clicked by you  & <br>and get a chance to get featured in our website</p>
+       <!--   <p>Send us your amazing pictures & <br> get a chance to ppublsh in our website.</p> -->
+      </div>
+   </div>
+</div>
+<hr>
+<!-- <section id="carousel">            -->
+<div class="container">
+   <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+         <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
+         <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000" style="min-height:200px;">
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators">
+               <li data-target="#fade-quote-carousel" data-slide-to="0"></li>
+               <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+               <li data-target="#fade-quote-carousel" data-slide-to="2"></li>
+               <li data-target="#fade-quote-carousel" data-slide-to="3"></li>
+               <li data-target="#fade-quote-carousel" data-slide-to="4"></li>
+               <li data-target="#fade-quote-carousel" data-slide-to="5"></li>
+            </ol>
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+               <div class="item">
+                  <!--  <div class="profile-circle" style="background-color: rgba(0,0,0,.2);"></div> -->
+                  <blockquote>
+                     <p>Best team outing destinations and amazing experiences.. Cheers to Glamaride</p>
+                  </blockquote>
+               </div>
+               <div class="item">
+                  <!-- <div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div> -->
+                  <blockquote>
+                     <p>Wow!!!! Mountains ..falls..trekking.. One of the best ever tour ..Thank you Glamaride.</p>
+                  </blockquote>
+               </div>
+               <div class="active item">
+                  <!-- <div class="profile-circle" style="background-color: rgba(145,169,216,.2);"></div> -->
+                  <blockquote>
+                     <p>Great Experience First Time I have Stayed In the Forest  ..Thank you Glamaride for making such a Memorable Team Outing.</p>
+                  </blockquote>
+               </div>
+               <div class="item">
+                  <!-- <div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div> -->
+                  <blockquote>
+                     <p>Good Places to visit with friends I had like to see More Destinations adding up  in Glamaride so that I can have more Fun.</p>
+                  </blockquote>
+               </div>
+               <div class="item">
+                  <!-- <div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div> -->
+                  <blockquote>
+                     <p>I had been many Places with friends but for the First time Such a  wonderful place Really  awesome Its because of Glamaride Thank you Glamaride</p>
+                  </blockquote>
+               </div>
+               <div class="item">
+                  <!-- <div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div> -->
+                  <blockquote>
+                     <p>Affordable and best service and mind blowing destination.</p>
+                  </blockquote>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+      <a class="btn btn-primary tagline" style="margin-left:46%;margin-bottom:20px;" target="_blank" href="https://www.facebook.com/glamaride/" data-toggle="modal" data-target="#feedbackForm">FEEDBACK</a>
+    <div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModalNorm" tabindex="-1" role="dialog" 
+     aria-labelledby="myModalLabel" aria-hidden="true" style="margin-top:30px;">
+    <div class="modal-dialog ">
+        <div class="modal-content customise">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <button type="button" class="close" 
+                   data-dismiss="modal">
+                       <span aria-hidden="true">&times;</span>
+                       <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    Customize Your trip
+                </h4>
+            </div>
+            
+            <!-- Modal Body -->
+            <div class="modal-body">
+                
+                <form role="form"  name="customise-form"  method="post" action="customise.php">
+                  <h5>{{message}}<h5>
+                  <div class="form-group">
+                    <!-- <label for="exampleInputPassword1">Budget Per Person</label> -->
+                      <input type="text" class="form-control"
+                          id="budget" placeholder="Budget Per Person" ng-model="customize.budget"  required name="budget"/>
+                  </div>
+                  <div class="form-group">
+                   <!--  <label for="exampleInputPassword1">Desired Place</label> -->
+                      <input type="text" class="form-control"
+                          id="place" placeholder="Desired Place" ng-model="customize.place" name="place" required/>
+                  </div>
+
+                  <div class="form-group">
+                    <!-- <label for="exampleInputPassword1">No of days</label> -->
+                      <input type="text" class="form-control"
+                          id="days" placeholder="No of days" ng-model="customize.days" name="days"required/>
+                  </div>
+                  <div class="form-group">
+                    <!-- <label for="exampleInputEmail1">Email address</label> -->
+                      <input type="email" class="form-control"
+                      id="email" placeholder="Email" ng-model="customize.email" name="email"/>
+                  </div>
+                  <div class="form-group">
+                    <!-- <label for="exampleInputPassword1">Phone Number</label> -->
+                      <input type="text" class="form-control"
+                          id="phone" placeholder="Phone Number" maxlength='10' minlength='10' ng-model="customize.phone" name="phone" required/>
+                  </div>
+            
+                  <!-- <div class="checkbox">
+                    <label>
+                        <input type="checkbox"/> Check me out
+                    </label>
+                  </div> -->
+                  <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+                
+                
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+
+<div class="modal fade feedback" id="feedbackForm" tabindex="-1" role="dialog" 
+     aria-labelledby="myModalLabel" aria-hidden="true" style="margin-top:30px;">
+    <div class="modal-dialog ">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <button type="button" class="close" 
+                   data-dismiss="modal">
+                       <span aria-hidden="true">&times;</span>
+                       <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title text-center" id="myModalLabel">
+                    WE NEED YOUR FEEDBACK
+                </h4>
+            </div>
+            
+            <!-- Modal Body -->
+            <div class="modal-body">
+                
+                <form role="form" ng-submit="getFeedback()">
+                  <!-- <h5>{{message}}<h5> -->
+                  <div class="form-group">
+                    <!-- <label for="exampleInputPassword1">Budget Per Person</label> -->
+                      <input type="text" class="form-control"
+                          id="name" placeholder="Name" ng-model="feedback.name"  required/>
+                  </div>
+                  <div class="form-group">
+                   <!--  <label for="exampleInputPassword1">Desired Place</label> -->
+                      <input type="text" class="form-control"
+                          id="email" placeholder="Email" ng-model="feedback.email" required/>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Stay</label><br>
+
+                       <input-stars max="5"  ng-model="feedback.stay" class="list-class text-center" style="display: -moz-grid-line;
+list-style: none;"></input-stars>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Customer Service</label><br>
+
+                       <input-stars max="5"  ng-model="feddback.customer" class="list-class text-center" style="display: -moz-grid-line;
+list-style: none;"></input-stars>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Overall Experience</label><br>
+
+                       <input-stars max="5"  ng-model="feddback.overall" class="list-class text-center" style="display: -moz-grid-line;
+list-style: none;"></input-stars>
+                  </div>
+                  
+                  <div class="form-group">
+                    <!-- <label for="exampleInputPassword1">Phone Number</label> -->
+                      <textarea type="text" class="form-control"
+                          id="exampleInputPassword1" placeholder="Your comments" ng-model="feedback.comments" required/>
+                  </div>
+                  <button type="submit" class="btn btn-success btn-block">Submit</button>
+                </form>
+                
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+<script >
+$(function(){
+
+  $('.mini-submenu').show();
+  $('.list-group').hide();
+   $('#slide-submenu').on('click',function() {                
+        $(this).closest('.list-group').fadeOut('slide',function(){
+         $('.mini-submenu').fadeIn();  
+        });
+        
+      });
+
+   $('.mini-submenu').on('click',function(){    
+        $(this).next('.list-group').toggle('slide');
+        $('.mini-submenu').show();
+   })
+})
+ </script>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $(window).scrollTop(0);
+        return false;
+
+    });
+</script>
