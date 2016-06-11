@@ -56,8 +56,8 @@ $scope.mytime = new Date();
     $scope.ismeridian = ! $scope.ismeridian;
   };
    
-     $scope.loaded = false;    
-     $timeout(function() { $scope.loaded = true; }, 5000);
+    $scope.loaded = false;    
+    $timeout(function() { $scope.loaded = true; }, 5000);
     $scope.myInterval = 5000;
     $scope.testimonials = [{feedback:'Best team outing destinations and amazing experiences.. Cheers to Glamaride',author:'Apeksha'},
                     {feedback:'Wow!!!! Mountains ..falls..trekking.. One of the best ever tour ..Thank you Glamaride', author:'Shweta'},
@@ -100,6 +100,25 @@ $scope.mytime = new Date();
 
       };
 
+
+      
+
+      $scope.getFeedback = function() {
+           console.log($scope.feedback);
+           $http({
+            method: 'POST',
+            url: "src/home/feedback.php",
+            data: $scope.feedback,
+            headers: {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}
+         }).success(function(data,status){
+            toaster.pop('success', "Submitted", "Thank you for your valuable feedback.");
+            $scope.code=status;    
+            $scope.customize={};
+            $('#feedbackForm').modal('hide');
+            
+        });
+
+      };
        $scope.contacts = function() {
            console.log($scope.contact);
            $http({

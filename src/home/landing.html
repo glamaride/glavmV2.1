@@ -25,9 +25,10 @@
                   </div> --> 
                   <select style="margin-top:12px;  width:100%;height:37px;" ng-model="enquire.groupsize" required> 
                     <option value="">Group size</option>
-                    <option value="<10"><10</option>
-                    <option value=">10">>10</option>
-                    <option value="<20"><20</option>
+                    <option value="1-5">1-5</option>
+                    <option value="5-15">5-15</option>
+                    <option value="15-30">15-30</option>
+                    <option value="More than 30">More than 30</option>
                   </select>
                </div>
                <div class="col-md-2 col-sm-2">
@@ -42,13 +43,15 @@
                   </div> -->
 
                   <select style="margin-top:12px;  width:100%;height:37px;" ng-model="enquire.budget" required>
-                    <option value="">My Budget</option>
-                    <option value="2000"><i class="fa fa-inr"></i>
- 2000</option>
+                    <option value="">Budget Per Person</option>
+                    <option value="<2000"><i class="fa fa-inr"></i>
+ Less than 2000</option>
                     <option value="2000-5000"><i class="fa fa-inr"></i>
  2000-5000</option>
                     <option value="5000-10000"><i class="fa fa-inr"></i>
  5000-10000</option>
+ <option value=">10000"><i class="fa fa-inr"></i>
+ More than 10000</option>
                   </select>
                </div>
                 <div class="col-md-3 col-sm-3" style="padding-top: 13px;">
@@ -424,7 +427,7 @@ Personalize your holidays that fit your budget and choose from the best travel p
             <!-- Modal Body -->
             <div class="modal-body">
                 
-                <form role="form"  name="customise-form"  method="post" action="customise.php">
+                <form role="form"  name="customise-form"  ng-submit="customise()">
                   <h5>{{message}}<h5>
                   <div class="form-group">
                     <!-- <label for="exampleInputPassword1">Budget Per Person</label> -->
@@ -511,13 +514,13 @@ list-style: none;"></input-stars>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Customer Service</label><br>
 
-                       <input-stars max="5"  ng-model="feddback.customer" class="list-class text-center" style="display: -moz-grid-line;
+                       <input-stars max="5"  ng-model="feedback.customer" class="list-class text-center" style="display: -moz-grid-line;
 list-style: none;"></input-stars>
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Overall Experience</label><br>
 
-                       <input-stars max="5"  ng-model="feddback.overall" class="list-class text-center" style="display: -moz-grid-line;
+                       <input-stars max="5"  ng-model="feedback.overall" class="list-class text-center" style="display: -moz-grid-line;
 list-style: none;"></input-stars>
                   </div>
                   
