@@ -73,7 +73,7 @@ $scope.mytime = new Date();
            $http({
             method: 'POST',
             url: "src/home/enquire.php",
-            data: $scope.customize,
+            data:  $scope.enquire,
             headers: {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}
          }).success(function(data,status){
             toaster.pop('success', "Submitted", "Thank you! Our team will get in touch with you soon");
