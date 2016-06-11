@@ -100,7 +100,7 @@ $scope.mytime = new Date();
 
       };
 
-
+      $scope.rates=4;
       
 
       $scope.getFeedback = function() {
