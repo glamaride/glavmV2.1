@@ -1297,3 +1297,7 @@ z-index: 200;
 .carousel-inner .item{
   min-height:320px;
 }
+
+.list-class li{
+  display: inline;
+}
