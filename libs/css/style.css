@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Caveat+Brush);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 @import "compass/css3";
 
 .home{
@@ -1147,7 +1148,8 @@ a {
 .navbar-default .navbar-header .navbar-brand {
     color: rgba(255,255,255,.7);
     color: #D25025;
-    font-family: "Elephant";
+    font-family: "Lato";
+    font-weight: 700;
     text-transform: none;
 }
 
