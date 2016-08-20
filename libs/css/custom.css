@@ -200,6 +200,16 @@ hr {
     }
 }
 
+@media(max-width:480px) {
+.place {
+    height: 550px;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    overflow: auto;
+    /*background-size: 100% 100%;*/
+}
+}
+
 /*form control*/
 .form-control{
    background-color: rgba(62, 54, 54, 0.12);

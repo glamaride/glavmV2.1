@@ -11,15 +11,15 @@
   margin-top:-20px;
   background-size: 100% 100%;
 }
-@media(width: 360px){
-  .home{
-    background:url(../../images/destinations/bg6.jpg);
-    height:360px;
-    width:200%;
+@media(max-width: 480px){
+  .home {
+    background: url(../../images/destinations/bg6.jpg);
+    height: 272px;
+    width: 200%;
     background-repeat: no-repeat;
-    margin-top:-20px;
+    margin-top: 71px;
     background-size: 100% 100%;
-  }
+}
 }
 @media(width: 640px){
   .home{
@@ -40,13 +40,13 @@
   background-size: 100% 100%;
 }
 
-@media(width: 360px){
- .destination{
-  height:360px;
-  background-repeat:no-repeat; 
-  background-image:url(../../images/destinations/collage1.jpg);
-  margin-top:40px;
-  background-size: 100% 100%;
+@media(max-width: 480px){
+.destination {
+    height: 290px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/destinations/collage1.jpg);
+    margin-top: 40px;
+    background-size: 100% 93%;
 }
 }
 
@@ -67,17 +67,6 @@
   overflow: auto; 
   background-size: 100% 100%;
 }
-
-/*@media(width: 360px){
- .place{
-  height:560px;
-  width:102%;
-  background-repeat:no-repeat; 
-  margin-top:40px;
-  overflow: auto; 
-}
-}*/
-
 
 .tagline h4 {
   font: 400 60px/1.5 'Pacifico', Helvetica, sans-serif;
