@@ -441,12 +441,13 @@ footer .col-social-icons i {
 }
 
 .photography p { 
-   top: 30px; 
-  font-family: 'Caveat Brush', cursive;
-   color: #f1c40f;
-   text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
-  position: absolute;
-  margin-left: 10%;
+   top: 0px;
+font-family: 'Caveat Brush', cursive;
+color: #f1c40f;
+/*text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);*/
+position: absolute;
+margin-left: 10%;
+font-size: 13px;
 }
   }
 
@@ -460,6 +461,18 @@ section {
     color: rgba(0,0,0,.1);
     text-align: center;
     margin-bottom: 30px;
+}
+
+.feedBtn{
+  margin-left:46%;
+  margin-bottom:20px;
+}
+
+@media(max-width: 360px){
+  .feedBtn{
+    margin-left:33%;
+    margin-bottom:20px;
+  }
 }
 
 /*-------------------------------*/
