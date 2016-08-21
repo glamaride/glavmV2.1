@@ -67,6 +67,22 @@
   overflow: auto; 
   background-size: 100% 100%;
 }
+.placeName{
+  margin-top:200px;
+}
+@media(max-width: 480px){
+  .place{
+  height:227px;
+  background-repeat:no-repeat; 
+  margin-top:40px;
+  overflow: auto; 
+  background-size: 100% 100%;
+}
+.placeName{
+  margin-top:25px;
+}
+}
+
 
 .tagline h4 {
   font: 400 60px/1.5 'Pacifico', Helvetica, sans-serif;
