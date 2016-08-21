@@ -70,18 +70,6 @@
 .placeName{
   margin-top:200px;
 }
-@media(max-width: 480px){
-  .place{
-  height:227px;
-  background-repeat:no-repeat; 
-  margin-top:40px;
-  overflow: auto; 
-  background-size: 100% 100%;
-}
-.placeName{
-  margin-top:25px;
-}
-}
 
 
 .tagline h4 {
@@ -110,6 +98,33 @@
   color: #fff;
   text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
   text-align: center;
+}
+
+@media(max-width: 480px){
+  .place{
+  height:227px;
+  background-repeat:no-repeat; 
+  margin-top:40px;
+  overflow: auto; 
+  background-size: 100% 100%;
+}
+.placeName{
+  margin-top:25px;
+}
+
+.tagline h4 {
+  font: 400 45px/1.5 'Pacifico', Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+  text-align: center;
+}
+.tagline span {
+  font: 400 20px/1.5 'Pacifico', Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
 }
 
 .destination-wrapper{
@@ -1269,6 +1284,19 @@ margin-left: -15px;
 position: fixed;
 top: 170px;
 z-index: 200;
+}
+
+@media(max-width: 480px){
+  .sticky-share {
+    float: left;
+    height: 155px;
+    width: 22px;
+    background: transparent;
+    margin-left: -15px;
+    position: fixed;
+    top: 267px;
+    z-index: 200;
+}
 }
 
 
