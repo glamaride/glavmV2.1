@@ -158,24 +158,25 @@ $scope.mytime = new Date();
       }
 })
 .controller('destinationCtrl', function ($scope, $state, $stateParams,$http) {
-   $scope.destinations=[{src:'images/destinations/dandeli/dandeli.jpg',text:'Dandeli',link:"home.place({place:'Dandeli'})"},{src:'images/destinations/goa/goabg.jpg',text:'Goa',link:"home.place({place:'Goa'})"},
-                  {src:'images/destinations/hampi/hampi.jpg',text:'Hampi',link:"home.place({place:'Hampi'})"},{src:'images/destinations/yercaud/yercaud.jpg',text:'Yercaud',link:"home.place({place:'Yercaud'})"},
-                  {src:'images/destinations/gokarna/gokarna.jpg',text:'Gokarna',link:"home.place({place:'Gokarna'})"},
-				  {src:'images/destinations/wayanad/wayanad.jpg',text:'Wayanad',link:"home.place({place:'Wayanad'})"},
-                  {src:'images/destinations/munnar/munnar.jpg',text:'Munnar' ,link:"home.place({place:'Munnar'})"},{src:'images/destinations/coonoor/coonoor.jpg',text:'Coonoor' ,link:"home.place({place:'Coonoor'})"},
-                  {src:'images/destinations/ooty/ooty.jpg',text:'Ooty',link:"home.place({place:'Ooty'})",link:"home.place({place:'Ooty'})"},
-                  {src:'images/destinations/coorg/coorg.jpg',text:'Coorg',link:"home.place({place:'Coorg'})"},{src:'images/destinations/kurumgad/kurumgad.jpg',text:'Kurumgad Island',link:"home.place({place:'Kurumgad Island'})"},
-                  {src:'images/destinations/mullayangiri/mullayangiri.jpg',text:'Mullayangiri',link:"home.place({place:'Mullayangiri'})"},
-                  {src:'images/destinations/mary/mary.jpg',text:'Malpe',link:"home.place({place:'Malpe'})"},{src:'images/destinations/mysore/mysore.jpg',text:'Mysore',link:"home.place({place:'Mysore'})"},
-                  {src:'images/destinations/chikmagalur/chikmagalur.jpg',text:'Chikmagalur',link:"home.place({place:'Chikmagalur'})"},
-				  {src:'images/destinations/Alleppey/Alleppey.jpg',text:'Alleppey',link:"home.place({place:'Alleppey'})"},
-				  {src:'images/destinations/Papikondalu/Papi.JPG',text:'Papikondalu',link:"home.place({place:'Papikondalu'})"},
-				  {src:'images/destinations/Dhanushkodi/dhanushkodi.jpg',text:'Dhanushkodi',link:"home.place({place:'Dhanushkodi'})"},
-				  {src:'images/destinations/Maravanthe/maravanthe-beach.jpg',text:'Maravanthe Beach',link:"home.place({place:'Maravanthe Beach'})"},
-				  {src:'images/destinations/Athirapally/Athirapally.jpg',text:'Athirapally Falls',link:"home.place({place:'Athirapally'})"},
-				  {src:'images/destinations/Gandikota/Gandikota.jpg',text:'Gandikota',link:"home.place({place:'Gandikota'})"},
-				  {src:'images/destinations/Thekkekadu/thekkekadu.jpg',text:'Thekkekadu',link:"home.place({place:'Thekkekadu'})"},
-				  {src:'images/destinations/araku/araku.jpg',text:'Araku Valley',link:"home.place({place:'Araku Valley'})"},
+   $scope.destinations=[
+                  {src:'images/destinations/dandeli/dandeli.jpg',text:'Dandeli',link:"home.place({place:'Dandeli'})",rating:5},{src:'images/destinations/goa/goabg.jpg',text:'Goa',link:"home.place({place:'Goa'})",rating:5},
+                  {src:'images/destinations/hampi/hampi.jpg',text:'Hampi',link:"home.place({place:'Hampi'})",rating:5},{src:'images/destinations/yercaud/yercaud.jpg',text:'Yercaud',link:"home.place({place:'Yercaud'})",rating:5},
+                  {src:'images/destinations/gokarna/gokarna.jpg',text:'Gokarna',link:"home.place({place:'Gokarna'})",rating:5},
+				          {src:'images/destinations/wayanad/wayanad.jpg',text:'Wayanad',link:"home.place({place:'Wayanad'})",rating:5},
+                  {src:'images/destinations/munnar/munnar.jpg',text:'Munnar' ,link:"home.place({place:'Munnar'})",rating:5},{src:'images/destinations/coonoor/coonoor.jpg',text:'Coonoor' ,link:"home.place({place:'Coonoor'})",rating:5},
+                  {src:'images/destinations/ooty/ooty.jpg',text:'Ooty',link:"home.place({place:'Ooty'})",link:"home.place({place:'Ooty'})",rating:5},
+                  {src:'images/destinations/coorg/coorg.jpg',text:'Coorg',link:"home.place({place:'Coorg'})",rating:5},{src:'images/destinations/kurumgad/kurumgad.jpg',text:'Kurumgad Island',link:"home.place({place:'Kurumgad Island'})",rating:5},
+                  {src:'images/destinations/mullayangiri/mullayangiri.jpg',text:'Mullayangiri',link:"home.place({place:'Mullayangiri'})",rating:5},
+                  {src:'images/destinations/mary/mary.jpg',text:'Malpe',link:"home.place({place:'Malpe'})",rating:5},{src:'images/destinations/mysore/mysore.jpg',text:'Mysore',link:"home.place({place:'Mysore'})",rating:5},
+                  {src:'images/destinations/chikmagalur/chikmagalur.jpg',text:'Chikmagalur',link:"home.place({place:'Chikmagalur'})",rating:5},
+        				  {src:'images/destinations/Alleppey/Alleppey.jpg',text:'Alleppey',link:"home.place({place:'Alleppey'})",rating:5},
+        				  {src:'images/destinations/Papikondalu/Papi.JPG',text:'Papikondalu',link:"home.place({place:'Papikondalu'})",rating:5},
+        				  {src:'images/destinations/Dhanushkodi/dhanushkodi.jpg',text:'Dhanushkodi',link:"home.place({place:'Dhanushkodi'})",rating:5},
+        				  {src:'images/destinations/Maravanthe/maravanthe-beach.jpg',text:'Maravanthe Beach',link:"home.place({place:'Maravanthe Beach'})",rating:5},
+        				  {src:'images/destinations/Athirapally/Athirapally.jpg',text:'Athirapally Falls',link:"home.place({place:'Athirapally'})",rating:5},
+        				  {src:'images/destinations/Gandikota/Gandikota.jpg',text:'Gandikota',link:"home.place({place:'Gandikota'})",rating:5},
+        				  {src:'images/destinations/Thekkekadu/thekkekadu.jpg',text:'Thekkekadu',link:"home.place({place:'Thekkekadu'})",rating:5},
+        				  {src:'images/destinations/araku/araku.jpg',text:'Araku Valley',link:"home.place({place:'Araku Valley'})",rating:5},
                   ];  
 
   })   
