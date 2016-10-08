@@ -12,8 +12,14 @@
     "image1":"images/destinations/goa/goa1.jpg",
     "image2":"images/destinations/goa/goa2.jpg",
     "image3":"images/destinations/goa/goa3.jpg",
+    "destImg":"images/destinations/goa/goabg.jpg",
+    "rating" : 5,
+    "bgColor" : "#1abc9c",
+    "link":"home.place({place:'Goa'})",
     "BestTimeToVisit":"November to March",
     "id":1
+
+
   },
  
   {
@@ -27,6 +33,9 @@
     "image1":"images/destinations/coorg/coorg1.jpg",
     "image2":"images/destinations/coorg/coorg2.jpg",
     "image3":"images/destinations/coorg/coorg2.jpg",
+    "destImg":"images/destinations/coorg/coorg.jpg",
+    "rating" : 5,
+    "bgColor" : "#f39c12",
     "BestTimeToVisit":"October to March",
     "id":2
   },
@@ -41,6 +50,9 @@
     "image1":"images/destinations/ooty/ooty1.jpg",
     "image2":"images/destinations/ooty/ooty2.jpg",
     "image3":"images/destinations/ooty/ooty3.jpg",
+    "destImg":"images/destinations/ooty/ooty.jpg",
+    "rating" : 4,
+    "bgColor" : "#8e44ad",
     "BestTimeToVisit":"April to June, September to November",
     "id":3
   }, 
@@ -55,6 +67,9 @@
     "image1":"images/destinations/wayanad/wayanad1.jpg",
     "image2":"images/destinations/wayanad/wayanad2.jpg",
     "image3":"images/destinations/wayanad/wayanad3.jpg",
+    "destImg":"images/destinations/wayanad/wayanad.jpg",
+    "rating" : 5,
+    "bgColor" : "#ED5565",
     "BestTimeToVisit":"October to May",
     "id":4
   }, 
@@ -69,6 +84,9 @@
     "image1":"images/destinations/kurumgad/kurumgad1.jpg",
     "image2":"images/destinations/kurumgad/kurumgad2.jpg",
     "image3":"images/destinations/kurumgad/kurumgad3.jpg",
+    "destImg":"images/destinations/kurumgad/kurumgad.jpg",
+    "rating" : 3,
+    "bgColor" : "#2980b9",
     "BestTimeToVisit":"October to February",
     "id":5
   },
@@ -83,6 +101,9 @@
     "image1":"images/destinations/gokarna/gokarna1.jpg",
     "image2":"images/destinations/gokarna/gokarna2.jpg",
     "image3":"images/destinations/gokarna/gokarna3.jpg",
+    "destImg":"images/destinations/gokarna/gokarna.jpg",
+    "rating" : 4,
+    "bgColor" : "#c0392b",
     "BestTimeToVisit":"October to March",
     "id":6
   },
@@ -97,6 +118,9 @@
     "image1":"images/destinations/dandeli/dandeli1.jpg",
     "image2":"images/destinations/dandeli/dandeli2.jpg",
     "image3":"images/destinations/dandeli/dandeli3.jpg",
+    "destImg":"images/destinations/dandeli/dandeli.jpg",
+    "rating" : 4,
+    "bgColor" : "#1abc9c",
     "BestTimeToVisit":"October to March",
     "id":7
   },
@@ -111,6 +135,9 @@
     "image1":"images/destinations/yercaud/yercaud1.jpg",
     "image2":"images/destinations/yercaud/yercaud2.jpg",
     "image3":"images/destinations/yercaud/yercaud3.jpg",
+    "destImg":"images/destinations/yercaud/yercaud.jpg",
+    "rating" : 4,
+    "bgColor" : "#f39c12",
     "BestTimeToVisit":"May to October",
     "id":8
   },
@@ -125,6 +152,9 @@
     "image1":"images/destinations/hampi/hampi1.jpg",
     "image2":"images/destinations/hampi/hampi2.jpg",
     "image3":"images/destinations/hampi/hampi3.jpg",
+    "destImg":"images/destinations/hampi/hampi.jpg",
+    "rating" : 4,
+    "bgColor" : "#8e44ad",
     "BestTimeToVisit":"October & November",
     "id":9
   },
@@ -139,6 +169,9 @@
     "image1":"images/destinations/mysore/mysore1.jpg",
     "image2":"images/destinations/mysore/mysore2.jpg",
     "image3":"images/destinations/mysore/mysore3.jpg",
+    "destImg":"images/destinations/mysore/mysore.jpg",
+    "rating" : 4,
+    "bgColor" : "#ED5565",
     "BestTimeToVisit":"Mysore is pleasant throughout the year",
     "id":10
   },
@@ -153,6 +186,9 @@
     "image1":"images/destinations/mary/mary1.jpg",
     "image2":"images/destinations/mary/mary2.jpg",
     "image3":"images/destinations/mary/mary3.jpg",
+    "destImg":"images/destinations/mary/mary.jpg",
+    "rating" : 4,
+    "bgColor" : "#2980b9",
     "BestTimeToVisit":"December to March",
     "id":11
   },
@@ -167,6 +203,9 @@
     "image1":"images/destinations/munnar/munnar1.jpg",
     "image2":"images/destinations/munnar/munnar2.jpg",
     "image3":"images/destinations/munnar/munnar3.jpg",
+    "destImg":"images/destinations/munnar/munnar.jpg",
+    "rating" : 4,
+    "bgColor" : "#c0392b",
     "BestTimeToVisit":"December to March",
     "id":12
   },
@@ -182,6 +221,9 @@
     "image1":"images/destinations/coonoor/coonoor1.jpg",
     "image2":"images/destinations/coonoor/coonoor2.jpg",
     "image3":"images/destinations/coonoor/coonoor3.jpg",
+    "destImg":"images/destinations/coonoor/coonoor.jpg",
+    "rating" : 4,
+    "bgColor" : "#1abc9c",
     "BestTimeToVisit":"December to March",
     "id":13
   },
@@ -196,6 +238,9 @@
     "image1":"images/destinations/chikmagalur/chikmagalur1.jpg",
     "image2":"images/destinations/chikmagalur/chikmagalur2.jpg",
     "image3":"images/destinations/chikmagalur/chikmagalur3.jpg",
+    "destImg":"images/destinations/chikmagalur/chikmagalur.jpg",
+    "rating" : 4,
+    "bgColor" : "#f39c12",
     "BestTimeToVisit":"September to March",
     "id":14
   },
@@ -210,6 +255,9 @@
     "image1":"images/destinations/mullayangiri/mullayanagiri1.jpg",
     "image2":"images/destinations/mullayangiri/mullayangiri2.jpg",
     "image3":"images/destinations/mullayangiri/mullayangiri3.jpg",
+    "destImg":"images/destinations/mullayangiri/mullayangiri.jpg",
+    "rating" : 4,
+    "bgColor" : "#8e44ad",
     "BestTimeToVisit":"September to March ",
     "id":15
   }
@@ -221,10 +269,13 @@
     "whatTosee":["Borra Caves","Araku Coffee House", "Katiki Waterfalls","Tribal Museum","Chaparai Waterfalls", "Ananthagiri waterfalls", "Bheemunipatnam Beach"],
 
     "imageBg":"images/destinations/araku/arakubg.JPG",
- "tagline":"The Lost Valley of Imagination!!!",
+    "tagline":"The Lost Valley of Imagination!!!",
     "image1":"images/destinations/araku/araku1.jpg",
     "image2":"images/destinations/araku/araku2.jpg",
     "image3":"images/destinations/araku/araku3.jpg",
+    "destImg":"images/destinations/araku/araku.jpg",
+    "rating" : 4,
+    "bgColor" : "#ED5565",
     "BestTimeToVisit":"August to December",
     "id":16
   },
@@ -235,10 +286,13 @@
     "whatTosee":["Kerala Backwaters","Bekal Fort","Chandragiri Fort","Ananthapura Lake","Thekkekadu Beach"],
 
     "imageBg":"images/destinations/Thekkekadu/thekkekadubg.jpg",
- "tagline":"You are in the Real World!!!",
+    "tagline":"You are in the Real World!!!",
     "image1":"images/destinations/Thekkekadu/thekkekadu1.jpg",
     "image2":"images/destinations/Thekkekadu/thekkekadu2.jpg",
     "image3":"images/destinations/Thekkekadu/thekkekadu3.jpg",
+    "destImg":"images/destinations/Thekkekadu/thekkekadu.jpg",
+    "rating" : 4,
+    "bgColor" : "#2980b9",
     "BestTimeToVisit":"Throughout the Year",
     "id":17
   },
@@ -253,6 +307,9 @@
     "image1":"images/destinations/Gandikota/gandikota1.jpg",
     "image2":"images/destinations/Gandikota/gandikota2.jpg",
     "image3":"images/destinations/Gandikota/gandikota3.jpg",
+    "destImg":"images/destinations/Gandikota/Gandikota.jpg",
+    "rating" : 4,
+    "bgColor" : "#c0392b",
     "BestTimeToVisit":"August to November",
     "id":18
   },
@@ -267,6 +324,9 @@
     "image1":"images/destinations/Athirapally/Athirapally1.jpg",
     "image2":"images/destinations/Athirapally/Athirapally2.jpg",
     "image3":"images/destinations/Athirapally/Athirapally3.jpg",
+    "destImg":"images/destinations/Athirapally/Athirapally.jpg",
+    "rating" : 4,
+    "bgColor" : "#1abc9c",
     "BestTimeToVisit":"June to September",
     "id":19
   },
@@ -281,6 +341,9 @@
     "image1":"images/destinations/Maravanthe/maravanthe-beach1.jpg",
     "image2":"images/destinations/Maravanthe/maravanthe-beach2.jpg",
     "image3":"images/destinations/Maravanthe/maravanthe-beach3.jpg",
+    "destImg":"images/destinations/Maravanthe/maravanthe-beach.jpg",
+    "rating" : 4,
+    "bgColor" : "#f39c12",
     "BestTimeToVisit":"September to March",
     "id":20
   },
@@ -295,6 +358,9 @@
     "image1":"images/destinations/Dhanushkodi/dhanushkodi1.jpg",
     "image2":"images/destinations/Dhanushkodi/dhanushkodi2.jpg",
     "image3":"images/destinations/Dhanushkodi/dhanushkodi3.jpg",
+    "destImg":"images/destinations/Dhanushkodi/dhanushkodi.jpg",
+    "rating" : 4,
+    "bgColor" : "#8e44ad",
     "BestTimeToVisit":"November to February",
     "id":21
   },
@@ -309,6 +375,9 @@
     "image1":"images/destinations/Papikondalu/Papi1.jpg",
     "image2":"images/destinations/Papikondalu/Papi2.jpg",
     "image3":"images/destinations/Papikondalu/Papi3.jpg",
+    "destImg":"images/destinations/Papikondalu/Papi.jpg",
+    "rating" : 4,
+    "bgColor" : "#ED5565",
     "BestTimeToVisit":"October to December",
     "id":22
   },
@@ -323,6 +392,9 @@
     "image1":"images/destinations/Alleppey/Alleppey1.jpg",
     "image2":"images/destinations/Alleppey/Alleppey2.jpg",
     "image3":"images/destinations/Alleppey/Alleppey3.jpg",
+    "destImg":"images/destinations/Alleppey/Alleppey.jpg",
+    "rating" : 4,
+    "bgColor" : "#2980b9",
     "BestTimeToVisit":"November to February",
     "id":23
   }
